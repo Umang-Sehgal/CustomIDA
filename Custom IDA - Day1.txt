@@ -1,0 +1,10 @@
+Custom IDA
+ - Data - factual information, can be structered(table), semi-structured(JSON, YAML, Key-Value) or unstructured(Media)
+ - Database (DBMS) - collection of data
+ - E-R Diagram
+ - Normalization
+ - Denormalization
+ - Case Study on E-R Diagram
+ - Case Study on Normalization
+ - Dimension Modelling (Star, Snowflake)
+ - SCD (Slowly Changing Dimensions) 
