@@ -1,0 +1,22 @@
+Custom IDA
+ - Overview of big data (4Vs)
+ - Types of data - structured, semi-structured and unstructured
+ - Batch and Stream Processing
+ - Parallel Processing/ Distributive Computing
+ - Different platforms - HADOOP and Spark
+ - Data Warehouse
+ - Data Lake
+ - Data Lakehouse
+ - Various Azure certifications
+ - Overview of Cloud
+ - Types of Clouds - Public, Private and Hybrid
+ - Models of Cloud - IaaS, Paas and Saas
+ - Shared Responsibility Model
+ - Serverless Computing - Azure Function and Azure Logic app
+ - Azure Architecture: 
+	Region
+	Region Pair
+ 	Availability Zones 
+	Azure Subscription
+	Azure Resource Manager
+	Azure resources
