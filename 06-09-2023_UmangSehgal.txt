@@ -1,0 +1,47 @@
+CUSTOM IDA
+ - Difference between Parameter and Variable
+ - Introduction to the various types of activities:
+	Copy data : move data from source to destination
+
+	Data flow : used for basic transformation of data
+
+	Append variable : changing the value of already existing varibale, it only supports array type
+	Delete : used for deletion of values, deletion of a file from storage
+
+	Execute pipeline : used to execute another pipeline, also helps overcome the restriction of 40 activities			   per pipeline
+
+	Execute SSIS package: requires Azure SSIS Integration Runtine, used for exisiting SSIS packages
+	
+	Fail : notify about failure
+
+	Get metadata : used to find details about the file
+  
+	Lookup : mapping table for values
+
+	Set variable : set a new value to the variable, supports all 4 data types
+
+	Validation : valid notification
+
+	Web : API calls
+
+	Web hooks : only POST request, automation to connect to slack, teams group to notify about some activity
+
+	Wait : to add delay
+
+	Iteration and condition : Filter, Switch, ForEach, If 
+
+ - Introduction to system variables
+ - Discussion about the various states of activities
+ - Introduction to Triggers and its types:
+	Scheduled : Particular time period - start and end date and offers flexibility in the same for min, hr, 		    day, month.
+		    Supports reocurrence.
+		    One Schedule Trigger can run several Data Pipelines, and a single Data Pipeline can be run by 		    multiple Schedule Triggers.
+
+	Tumbling window : Able to run pipelines from past date onto of the features offered by scheduled trigger
+			  Sends the start and end times for each time window to the Database, returning all data 			  between those periods. Finally, the data for each hour or day can be saved in its own 			  file or folder, making it more suitable for working with historical data.
+
+
+	Storage event : respond to changes in the storage container (Blob and ADLS) such a creation and deletion
+			a single Event Trigger can run several Pipelines, and a single Pipeline can be run by 				multiple Event Triggers.
+
+	Custom event : 
