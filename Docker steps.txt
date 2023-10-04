@@ -1,0 +1,11 @@
+Docker - used for creating containers and lightweight as compared to Virtual Machine
+- install and start docker (systemctl start docker)
+- create application(python, java, js, etc), requirements.txt(libraries needed), Dockerfile(what to do and how, steps)
+- docker build -t <image_name> .
+- docker run <image_name>
+- az login
+- az create group - Resource Group creation
+- az acr create - Azure Container Registry creation
+- az acr login / docker login
+- docker tag
+- docker push 
